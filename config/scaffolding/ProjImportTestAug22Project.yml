@@ -3,9 +3,9 @@ info:
   model: int-scaffold
 packages:
 - name: ProjImportTestAug22Project
-  gitServerName: PRCH_P_GH
+  gitServerName: PRCH_GH_PVT
   gitUrl: https://github.com/prch-ibm
-  gitUsername: prakashmj59
+  gitUsername: prch-ibm
   gitBranch: main
 services:
 - serviceName: project.projimporttestaug22.integrations:DAF1_T1
