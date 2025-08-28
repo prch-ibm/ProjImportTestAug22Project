@@ -9,14 +9,13 @@
       <value name="node_type">record</value>
       <value name="node_subtype">unknown</value>
       <value name="is_public">false</value>
-      <value name="field_type">record</value>
+      <value name="field_type">recref</value>
       <value name="field_dim">0</value>
       <value name="nillable">true</value>
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
-      <array name="rec_fields" type="record" depth="1">
-      </array>
       <value name="modifiable">true</value>
+      <value name="rec_ref">project.projimporttestaug22.documenttypes:emp</value>
     </record>
     <record name="sig_out" javaclass="com.wm.util.Values">
       <value name="node_type">record</value>
@@ -45,9 +44,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">prch</value>
-    <value name="createdDate">1755856328991</value>
-    <value name="lastModifiedDate">1755856328991</value>
+    <value name="lastModifiedBy">prch</value>
+    <value name="lastModifiedDate">1756376426698</value>
     <value name="displayName">DAF1_T1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -70,6 +68,29 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Reference Data</value>
+          <value name="groupName">referenceData</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">refDT1</value>
+          <value name="serviceName">project.projimporttestaug22.referencedata:refDT1</value>
+          <double name="rank" type="Double">0.4</double>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <value name="itemType">ALL</value>
+        <value name="name">NEW</value>
       </record>
     </record>
   </record>
